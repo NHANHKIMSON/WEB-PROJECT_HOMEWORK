@@ -1,0 +1,32 @@
+@font-face{
+    font-family: son;
+    src: url('../fonts/KdamThmorPro-Regular.ttf');
+}
+@font-face{
+    font-family: poppin;
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+h1,h2,h3,h4,h5{
+    font-family: poppin, son;
+}
+
+
+@media(min-width: 761px){
+    .login{
+        position: absolute;
+        top: 12px;
+    }
+}
+
+@media(max-width: 761px){
+    .login{
+        position: absolute;
+        top: 18px;
+    }
+}
+
+@media (min-width: 344px){
+    .login{
+        right: 30px !important;
+    }
+}
